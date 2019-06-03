@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href = "view.calculator.css">
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<form>
+<input type = "text" id="line" >
+<table>
+    <tr>
+        <td><input type = "button" value = "B" onclick = "clearBefore()"></td>
+        <td><input type = "button" value = "C" onclick = "clearAll()"></td>
+        <td colspan="2"><input style="width: 106px" type = "button" value = "="  onclick = "caluclate()"></td>
+    </tr>
+    <tr>
+        <td><input type = "button" value = "7" onclick = "putNumber(7)"></td>
+        <td><input type = "button" value = "8" onclick = "putNumber(8)"></td>
+        <td><input type = "button" value = "9" onclick = "putNumber(9)"></td>
+        <td><input type = "button" value = "/" onclick = "putNumber('/')"></td>
+    </tr>
+    <tr>
+        <td><input type = "button" value = "4" onclick = "putNumber(4)"></td>
+        <td><input type = "button" value = "5" onclick = "putNumber(5)"></td>
+        <td><input type = "button" value = "6" onclick = "putNumber(6)"></td>
+        <td><input type = "button" value = "*" onclick = "putNumber('*')"></td>
+    </tr>
+    <tr>
+        <td><input type = "button"value  = "1" onclick = "putNumber(1)"></td>
+        <td><input type = "button" value = "2" onclick = "putNumber(2)"></td>
+        <td><input type = "button" value = "3" onclick = "putNumber(3)"></td>
+        <td><input type = "button" value = "-" onclick = "putNumber('-')"></td>
+    </tr>
+    <tr>
+       <td colspan = 2><input style ="width:106px" type = "button" value = "0" onclick = "putNumber(0)"></td>
+        <td><input type = "button" value = "." onclick = "putNumber('.')"></td>
+        <td><input type = "button" value = "+" onclick = "putNumber('+')"></td>
+    </tr>
+</table>
+</form>
+</body>
+<script src="logic.calculator.js"></script>
+</html>

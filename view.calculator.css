@@ -1,0 +1,40 @@
+input[type="button"]{
+    padding: 0;
+    margin:1px;
+    width:50px;
+    height:50px;
+    font-size: 1.2em;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background-color: rgb(53, 118, 221);
+    color:white
+}
+input[type="button"]:active{
+    background-color: rgb(27, 196, 30);
+}
+#line{
+    position: relative;
+    left:50px;
+    width:210px;
+    height:50px;
+    padding-left:10px;
+    margin-left: 1px;
+    font-size: 1.4em;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    border:3px solid rgb(48, 55, 66);
+}
+input, table{
+    border-radius: 2px;
+    border:none;
+    outline:none;
+}
+body,form{
+    position: relative;
+    left:50px;
+    top:20px;
+    font-family:'Righteous', cursive;
+    padding:0;
+}
+table{
+    margin-left: 50px;
+    background-color: rgb(48, 55, 66);
+}
